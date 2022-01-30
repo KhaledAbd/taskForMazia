@@ -10,53 +10,20 @@
   <img width="320" height="300" src="https://media-exp1.licdn.com/dms/image/C4D0BAQH-Gtjg9u_EDA/company-logo_200_200/0/1641869122106?e=1651708800&v=beta&t=9shi_K0hAO1NcFa-SJldWxRX2rpIN4B3kqM8M7PfAF0">
 </p>
 
-&nbsp;
-> Before you use this app, it must go to AsaraV2 branch.
-&nbsp;
-
 # Developers
 
 -[ Khaled Mohammed Elshoky -Full-Stack-](https://github.com/KhaledAbd/) Full-Stack Developer- Angular & Dot Net Core FrameWork.
 
-&nbsp;
-&nbsp;
-
-> What problem does it solve?
-We sought to solve much of problems, likes:
-- Inventory of month and day.
-- Organizing the movement of withdrawals and deposits in warehouses.
-- Organizing the buying and selling movement of the shop.
-- Facilitate easy access to information for each category.
-- AND MORE AND MORE!
-
-&nbsp;
-
-> What did we learn from this project?
-- We are learning a lot of things through this great app, such as:
-&nbsp;
-1. How to design precisely.
-&nbsp;
-2. How to significantly speed up the operations of the program.
-&nbsp;
-3. How the design is responsive to the user's ability, whether he or she uses a computer or not.
-&nbsp;
-4. Strive to make an application that is easy for anyone to use.
-&nbsp;
-5. We also learned some technologies such as:
-    - Dealing with github.
-    - Dealing with the global platform [Angular](https://angular.io/) in a powerful and effective way.
-    - Dealing with databases and the basics of special protocols.
-
-&nbsp;
 
 > What is the language of the app?
-- This app was built in arabic language.
+- This app was built in english language.
 
 &nbsp;
 
 ## Description
-Asara is a shop management web application: 
+Mazia is a simple web application: 
 - This application is cross-platform. So, you can run it in windows or linux or mac.. etc.
+- Applay interval Web Applications.
 
 &nbsp;
 
@@ -81,7 +48,7 @@ Asara uses a number of open source projects and frameworks to work properly:
 - [Npm](https://www.npmjs.com/) - install modules.
 - [Dot Net core FrameWork](https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-6.0) - In Back-End.
 - [MSSQL](https://www.mssql.com/) - DataBase Management System.
-- [WorkBanch](https://www.mysql.com/products/workbench/) - Data Base Management tool.
+- [MSMS](https://www.mysql.com/products/workbench/) - Data Base Management tool.
 - [Post Man](https://www.postman.com/) - For testing APIs in app.
 - [Git](https://git-scm.com/).
 
