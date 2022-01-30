@@ -1,0 +1,48 @@
+<div class="container">
+
+    <div class="screen">
+      <div class="screen__content">
+
+            <form class="login" [formGroup]="formLogin" (ngSubmit)="onSubmit()" *ngIf="formLogin">
+
+                <div class="login__field">
+                    <i class="login__icon fas fa-user m-2"></i>
+                    <input type="text" class="login__input" placeholder="Username" formControlName="username" [ngClass]="{ 'login__input__error': GetControl('username')?.errors && GetControl('username')?.touched }">
+                </div>
+
+                <div *ngIf="GetControl('username')?.touched && GetControl('username')?.errors">
+                    <div class="error" *ngIf="GetControl('username')?.errors?.required" (click)="GetControl('username')?.reset()">
+                        *Enter Username please.
+                    </div>
+                </div>
+
+                <div class="login__field">
+                    <i class="login__icon fas fa-lock m-2"></i>
+                    <input type="password" class="login__input" placeholder="Password" formControlName="password" [ngClass]="{ 'login__input__error': GetControl('password')?.errors && GetControl('password')?.touched }">
+                </div>
+
+                <div *ngIf="GetControl('password')?.touched && GetControl('password')?.errors">
+                    <div class="error" *ngIf="GetControl('password')?.errors?.required" (click)="GetControl('password')?.reset()">
+                      * Enter Password please.
+                    </div>
+                </div>
+
+                <div class="error" *ngIf="formLogin.errors?.isLogin" (click)=" formLogin.reset({})">
+                    * Error with Password Or Username
+                </div>
+
+                <button class="button login__submit" [disabled]="formLogin.invalid || formLogin.disabled" type="submit">
+                      <span class="button__text">Login</span><i class="button__icon fa fa-chevron-right"></i>
+              </button>
+
+            </form>
+        </div>
+
+        <div class="screen__background">
+            <span class="screen__background__shape screen__background__shape4"></span>
+            <span class="screen__background__shape screen__background__shape3"></span>
+            <span class="screen__background__shape screen__background__shape2"></span>
+            <span class="screen__background__shape screen__background__shape1"></span>
+        </div>
+    </div>
+</div>

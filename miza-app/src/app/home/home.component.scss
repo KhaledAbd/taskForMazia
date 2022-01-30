@@ -1,0 +1,51 @@
+table {
+  width: 100%;
+}
+
+th.mat-sort-header-sorted {
+  color: black;
+}
+.mat-column-select {
+  overflow: initial;
+}
+
+ /* Style the navigation bar */
+ .navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 4px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 10px;
+}
+.nav__photo {
+  border-radius: 20%;
+  width: 50px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  color: rgb(56, 9, 9);
+
+}
+
+/* Current/active navbar lin  k */
+.active {
+  border: #000 ;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
