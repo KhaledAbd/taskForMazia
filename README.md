@@ -1,4 +1,4 @@
-# Asara
+# Mazai
 
 <p align="center">
   Mazayia Application
